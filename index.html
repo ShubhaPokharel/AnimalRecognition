@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Noises</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Julius+Sans+One&family=Lora&family=Noto+Sans+JP:wght@700&family=Playfair+Display&family=Poppins&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="starting">
+      <h1>Animal Noise Recognition</h1>
+  </div>
+  <center>
+    <h1 style="font-family: 'Quicksand', sans-serif;">The Sound Is:  </h1>
+    <h2 style="font-family: 'Quicksand', sans-serif;">Accuracy: </h2>
+    <button id="start" onclick="startSound()">Start Sound </button>
+  </center>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <div class="row">
+      <div class="column">
+          <h1 style="font-family: 'Lora', serif;" id="textcat">Cat</h1>
+        <img src="catImage.png" alt="cat" style="width:100%" id="catImage">
+      </div>
+      <div class="column">
+          <h2 style="font-family: 'Lora', serif;" id="textdog">Dog</h2>
+       <img src="dogImage.png" alt="dog" style="width:400px; height: 400px;width: 400px; position: relative; top:-60px;" id="dogImage">
+      </div>
+      <div class="column">
+          <h2 style="font-family: 'Lora', serif;" id="textcow">Cow</h2>
+        <img src="cowImage.png" alt="cow" style="width:100%; height: 220px;width: 220px; position: relative;top:55px;" id="cowImage">
+      </div>
+    </div>
+  
+</body>
+</html>

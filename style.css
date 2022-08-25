@@ -1,0 +1,46 @@
+#starting{
+    background-color: #314247;
+    color: beige;
+    height: 100px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+}
+
+#textcat{
+    position: relative;
+    padding-left: 220px;
+    bottom: -50px;
+}
+
+#dogImage{
+    height: 400px;
+     width: 400px; 
+     position: relative;
+      top:-30px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #textdog{
+    position: relative;
+    padding-left: 170px;
+    bottom: -50px;
+  }
+
+  #textcow{
+    position: relative;
+    padding-left: 60px;
+    bottom: -50px;
+  }
